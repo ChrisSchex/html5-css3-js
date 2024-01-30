@@ -1,0 +1,30 @@
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header, nav, main, section, footer {
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Placeholder for reset styles */
+/* This will be replaced with the reset styles in the next steps */
