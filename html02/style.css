@@ -1,0 +1,67 @@
+
+/* Character Set */
+@charset "UTF-8";
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 20px;
+}
+
+/* Paragraph styling */
+p {
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Footer styling */
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Additional styling can be added here */
+/* Examples:
+   h1, h2, h3 {
+       color: #000000;
+       font-weight: normal;
+   }
+
+   a:hover {
+       color: #ff0000;
+   }
+
+   .class-name {
+       /* Styles for class */
+   }
+
+   #id-name {
+       /* Styles for id */
+   }
+
+   img {
+       /* Styles for images */
+   }
+*/
