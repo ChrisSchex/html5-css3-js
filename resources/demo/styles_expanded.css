@@ -1,0 +1,12 @@
+
+/* Selecting the figure element by its ID */
+#example-figure {
+    width: 300px; /* Setting the width of the figure box */
+    margin: auto; /* Centering the box horizontally */
+    padding: 10px; /* Adding space inside the box around its content */
+    background-image: url('path_to_image.jpg'); /* Adding a background image */
+    background-size: cover; /* Ensuring the image covers the entire element */
+    background-position: center; /* Centering the image */
+    height: 200px; /* Setting a specific height for the figure box */
+    border: 2px solid #000000; /* Adding a black border */
+}
