@@ -5,14 +5,35 @@
 <head>
     <title>Graphic Design with CSS3 and HTML5</title>
     <!-- Linking the external CSS file -->
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles_expanded.css">
 </head>
 <body>
+
+    <div class="image-map-container">
+        <img src="dog.jpg" alt="Example Image Map" usemap="#example-map" style="width:100%; height:auto;">
+        <div class="overlay rect" style="left:34px; top:44px; width:236px; height:306px;"></div>
+        <div class="overlay circle" style="left:270px; top:240px;"></div>
+    </div>
+
+    <map name="example-map">
+        <area shape="rect" coords="34,44,270,350" href="https://www.drlee.ai" alt="Area 1" target="_blank">
+        <area shape="circle" coords="330,300,60" href="https://www.drlee.io" alt="Area 2" target="_blank">
+    </map>
 
     <!-- Figure element for our graphic design example -->
     <figure id="example-figure">
         <!-- Image and caption will be added here -->
     </figure>
+<div id="example-text">Shadowed Text</div>
+<div id="example-box">Content inside of the box</div>
+</br>
+</br>
+</br>
+<div id="example-linear-gradient">Gradient Background</div>
+</br>
+</br>
+<div id="example-radial-gradient">Radial Gradient Background</div>
+<div id="example-opacity">Opaque</div>
 
 </body>
 </html>
