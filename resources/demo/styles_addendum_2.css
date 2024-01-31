@@ -1,0 +1,26 @@
+
+/* Existing styles from previous tutorials and addendums */
+#example-figure {
+    /* previous styles */
+}
+
+/* New Addendum 2 Styles */
+/* Box Shadow */
+#example-box {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Adding a shadow to the box */
+}
+
+/* Linear Gradient */
+#example-linear-gradient {
+    background: linear-gradient(to right, red, yellow); /* Horizontal gradient from red to yellow */
+}
+
+/* Radial Gradient */
+#example-radial-gradient {
+    background: radial-gradient(circle, red, yellow); /* Circular gradient from red to yellow */
+}
+
+/* Opacity */
+#example-opacity {
+    opacity: 0.5; /* 50% transparent */
+}

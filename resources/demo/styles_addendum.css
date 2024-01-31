@@ -1,0 +1,28 @@
+
+/* Existing styles from the previous tutorial */
+#example-figure {
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    background-image: url('path_to_image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    border: 2px solid #000000;
+}
+
+/* New Addendum Styles */
+/* Rounded Borders */
+#example-figure {
+    border-radius: 15px; /* Rounds the corners of the figure box */
+}
+
+/* Graphic Border */
+#example-figure {
+    border-image: url('path_to_border_image.png') 30 round; /* Adds a graphic border */
+}
+
+/* Text Shadow */
+#example-text {
+    text-shadow: 2px 2px 2px #000000; /* Adds a shadow to text */
+}
