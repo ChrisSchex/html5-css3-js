@@ -1,0 +1,44 @@
+@charset "utf-8";
+/*
+   
+   Author:   Dr. Lee
+   Date:     
+   
+   Filename: gp_print.css
+
+   This file contains the printer styles used with the sample
+   comic book pages from Golden Pulps.
+
+*/
+
+
+
+/* Hidden Objects */
+
+nav, footer, article {
+	display: none;
+}
+
+
+/* Comic Book Sheet Styles */
+
+
+
+section#sheet {
+	margin: 0in auto;
+	width: 6in;
+}
+
+img.size1 {width: 5in;}	  
+img.size2 {width: 3in;}
+img.size3 {width: 2in;}
+img.size4 {width: 1.5in;}
+
+
+
+	
+
+
+
+
+
